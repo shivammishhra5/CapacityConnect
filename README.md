@@ -573,3 +573,44 @@ This project is open-sourced software licensed under the **[MIT license](LICENSE
 **Made with ❤️ using Laravel**
 
 </div>
+
+<div class="contact-card">
+  <h2>Shivam Mishra</h2>
+  <ul class="contact-list">
+    <li>✉️ <a href="mailto:shivammishracu@gmail.com">shivammishracu@gmail.com</a></li>
+    <li>💼 <a href="https://linkedin.com/in/shivammishhra5" target="_blank">linkedin.com/in/shivammishhra5</a></li>
+    <li>💻 <a href="https://github.com/shivammishhra5" target="_blank">github.com/shivammishhra5</a></li>
+  </ul>
+</div>
+
+<style>
+.contact-card {
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 320px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f5f7fa;
+  border: 1px solid #e0e0e0;
+}
+.contact-card h2 {
+  margin: 0 0 12px;
+  font-size: 20px;
+  color: #1a1a2e;
+}
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact-list li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.contact-list a {
+  color: #0f4c81;
+  text-decoration: none;
+}
+.contact-list a:hover {
+  text-decoration: underline;
+}
+</style>
