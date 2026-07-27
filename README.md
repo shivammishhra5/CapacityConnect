@@ -368,7 +368,7 @@ APP_URL=http://localhost
 
 DB_CONNECTION=sqlite      # or mysql / pgsql
 # DB_HOST=127.0.0.1
-# DB_DATABASE=kcpl_academy
+# DB_DATABASE=admin
 # DB_USERNAME=root
 # DB_PASSWORD=
 
