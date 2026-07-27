@@ -568,12 +568,6 @@ This project is open-sourced software licensed under the **[MIT license](LICENSE
 - PDF generation by [barryvdh/laravel-dompdf](https://github.com/barryvdh/laravel-dompdf)
 - UI toasts by [laravel-toaster-magic](https://github.com/devrabiul/laravel-toaster-magic)
 
-<div align="center">
-
-**Made with ❤️ using Laravel**
-
-</div>
-
 <div class="contact-card">
   <h2>Shivam Mishra</h2>
   <ul class="contact-list">
@@ -583,34 +577,8 @@ This project is open-sourced software licensed under the **[MIT license](LICENSE
   </ul>
 </div>
 
-<style>
-.contact-card {
-  font-family: 'Segoe UI', sans-serif;
-  max-width: 320px;
-  padding: 20px;
-  border-radius: 12px;
-  background: #f5f7fa;
-  border: 1px solid #e0e0e0;
-}
-.contact-card h2 {
-  margin: 0 0 12px;
-  font-size: 20px;
-  color: #1a1a2e;
-}
-.contact-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.contact-list li {
-  margin-bottom: 8px;
-  font-size: 14px;
-}
-.contact-list a {
-  color: #0f4c81;
-  text-decoration: none;
-}
-.contact-list a:hover {
-  text-decoration: underline;
-}
-</style>
+<div align="center">
+
+**Made with ❤️ using Laravel**
+
+</div>
