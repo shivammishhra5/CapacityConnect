@@ -1,104 +1,162 @@
-# KCPL_Academy
-
 # KCPL Academy
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Laravel-12-red?style=for-the-badge&logo=laravel">
-  <img src="https://img.shields.io/badge/PHP-8.2-blue?style=for-the-badge&logo=php">
-  <img src="https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql">
-  <img src="https://img.shields.io/badge/Vite-Frontend-purple?style=for-the-badge&logo=vite">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+
+<h1 align="center">KCPL Academy</h1>
+
+<p align="center">
+A Modern AI Powered Learning Management System built using Laravel 12
 </p>
 
-# KCPL Academy – Modern Learning Management System (LMS)
+<p align="center">
 
-KCPL Academy is a complete Learning Management System (LMS) developed using **Laravel 12**. The platform allows students to enroll in courses, instructors to create and manage educational content, and administrators to control the entire learning ecosystem from a centralized dashboard.
+![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge&logo=laravel)
 
-The system supports online learning, quizzes, assignments, certificates, payments, blogs, events, instructor management, analytics, notifications, and AI-powered student features.
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php)
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
+
+![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
+
+![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)
+
+</p>
 
 ---
 
-# Features
+## Table of Contents
 
-## Student Module
+- About
+- Project Overview
+- Key Features
+- System Modules
+- Technology Stack
+- Project Architecture
+- Folder Structure
+- Installation
+- Configuration
+- Environment Variables
+- Database
+- Authentication
+- User Roles
+- Admin Panel
+- Instructor Panel
+- Student Panel
+- AI Features
+- Payment System
+- Screenshots
+- Deployment
+- Security
+- Performance
+- API
+- Future Scope
+- Contributing
+- License
+- Author
 
-- Student Registration & Login
-- Student Dashboard
-- Browse Courses
+---
+
+# About
+
+KCPL Academy is a full-featured Learning Management System (LMS) designed to provide an end-to-end online education platform for educational institutions, coaching centers, universities, training organizations, and corporate learning environments.
+
+The project has been developed using Laravel 12 following modern software architecture and best development practices. It provides separate dashboards for administrators, instructors, and students while ensuring secure authentication, efficient course management, online assessments, payment processing, certification, and analytics.
+
+The system focuses on scalability, security, maintainability, and user experience.
+
+---
+
+# Project Objectives
+
+The primary objectives of KCPL Academy are:
+
+- Build a scalable LMS platform.
+- Simplify online education.
+- Allow instructors to create and manage courses.
+- Enable students to learn from anywhere.
+- Provide centralized administration.
+- Automate certificates and assessments.
+- Support secure online payments.
+- Improve learning through AI-powered assistance.
+
+---
+
+# Core Features
+
+## Authentication
+
+- Login
+- Registration
+- Email Verification
+- Forgot Password
+- Password Reset
+- Secure Session Management
+- Role Based Authentication
+
+---
+
+## Course Management
+
+- Course Creation
+- Categories
+- Course Levels
+- Pricing
+- Curriculum Builder
+- Video Lessons
+- Attachments
+- Course Reviews
+- Learning Outcomes
+- Requirements
+- FAQs
+
+---
+
+## Student Learning
+
 - Course Enrollment
-- My Courses
-- Video Learning
-- Assignment Submission
+- Continue Learning
+- Progress Tracking
+- Watch Videos
+- Download Resources
+- Assignments
 - Quiz Attempts
-- Certificate Download
-- Event Registration
-- Payment History
-- Community Section
-- AI Chat Assistant
+- Certificates
+- Wishlist
 - Notifications
+
+---
+
+## Instructor Features
+
+- Instructor Dashboard
+- Course Builder
+- Lesson Upload
+- Assignment Management
+- Quiz Builder
+- Student Analytics
+- Revenue Dashboard
+- Withdraw Requests
 - Profile Management
 
 ---
 
-## Instructor Module
+## Admin Features
 
-- Instructor Registration
-- Instructor Dashboard
-- Course Management
-- Course Builder
-- Student Management
-- Quiz Management
-- Assignment Management
-- Event Builder
-- Earnings Dashboard
-- Analytics
-- Reviews Management
-- Notifications
-- Bundle Management
-- Profile Settings
-
----
-
-## Admin Module
-
-- Admin Dashboard
+- Dashboard
 - User Management
-- Student Management
-- Instructor Management
 - Course Management
-- Bundle Management
-- Course Categories
-- Course Languages
-- Enrollment Management
-- Payment Management
-- Payment Gateway Settings
-- Certificate Management
-- Reports & Analytics
-- Newsletter Management
-- Blog Management
-- Blog Categories
-- Banner Management
-- Custom Pages
-- Menu Builder
-- Notifications
-- Frontend Settings
-- System Maintenance
-
----
-
-## Frontend Features
-
-- Home Page
-- About Page
-- Contact Page
-- Course Catalog
-- Instructor Listing
-- Blog
+- Category Management
+- Language Management
 - Events
-- Testimonials
-- FAQs
-- Newsletter Subscription
-- Dynamic Custom Pages
+- Payments
+- Reports
+- CMS
+- Newsletter
+- Blog
+- Banner Management
+- Menu Builder
+- Certificates
+- Settings
 
 ---
 
@@ -108,15 +166,19 @@ The system supports online learning, quizzes, assignments, certificates, payment
 
 - Laravel 12
 - PHP 8.2+
-- MySQL
 
 ## Frontend
 
-- Blade Templates
+- Blade
 - HTML5
 - CSS3
 - JavaScript
+- Bootstrap
 - Vite
+
+## Database
+
+- MySQL
 
 ## Authentication
 
@@ -129,311 +191,13 @@ The system supports online learning, quizzes, assignments, certificates, payment
 
 ## PDF
 
-- Barryvdh Laravel DomPDF
+- DomPDF
 
-## Payment Gateways
+## Mail
 
-- Stripe
-- Paystack
+- Laravel Mail
 
----
+## Version Control
 
-# Project Structure
-
-```
-KCPL Academy
-│
-├── app/
-├── bootstrap/
-├── config/
-├── database/
-├── public/
-├── resources/
-├── routes/
-├── storage/
-├── tests/
-├── vendor/
-├── artisan
-├── composer.json
-├── package.json
-└── vite.config.js
-```
-
----
-
-# Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/your-username/kcpl-academy.git
-```
-
-Move into project
-
-```bash
-cd kcpl-academy
-```
-
-Install PHP dependencies
-
-```bash
-composer install
-```
-
-Install Node dependencies
-
-```bash
-npm install
-```
-
-Copy Environment
-
-```bash
-cp .env.example .env
-```
-
-Generate Key
-
-```bash
-php artisan key:generate
-```
-
-Configure Database
-
-Edit `.env`
-
-```
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=kcpl_academy
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-Run Migration
-
-```bash
-php artisan migrate
-```
-
-(Optional)
-
-```bash
-php artisan db:seed
-```
-
-Storage Link
-
-```bash
-php artisan storage:link
-```
-
-Run Project
-
-```bash
-php artisan serve
-```
-
-Compile Assets
-
-Development
-
-```bash
-npm run dev
-```
-
-Production
-
-```bash
-npm run build
-```
-
----
-
-# User Roles
-
-### Admin
-
-- Manage platform
-- Manage courses
-- Manage instructors
-- Manage students
-- Configure payments
-- Reports
-- CMS
-
----
-
-### Instructor
-
-- Create courses
-- Upload lessons
-- Manage assignments
-- Conduct quizzes
-- Track students
-- View earnings
-
----
-
-### Student
-
-- Purchase courses
-- Learn online
-- Submit assignments
-- Attempt quizzes
-- Download certificates
-- Join events
-
----
-
-# Main Functionalities
-
-✔ Authentication
-
-✔ Role Based Access Control
-
-✔ Online Courses
-
-✔ Assignments
-
-✔ Quizzes
-
-✔ Certificates
-
-✔ Blog
-
-✔ Events
-
-✔ AI Chat
-
-✔ Community
-
-✔ Newsletter
-
-✔ Reviews
-
-✔ Analytics
-
-✔ Payment Integration
-
-✔ Notifications
-
----
-
-# Packages Used
-
-- Laravel Framework 12
-- Laravel Fortify
-- Laravel Sanctum
-- Spatie Permission
-- Barryvdh DomPDF
-- Stripe PHP SDK
-- Paystack PHP SDK
-- Laravel Toaster Magic
-
----
-
-# Security Features
-
-- CSRF Protection
-- Authentication Middleware
-- Authorization Middleware
-- Role-Based Access Control
-- Form Validation
-- Secure Password Hashing
-- Session Protection
-
----
-
-# Future Enhancements
-
-- Mobile Application
-- Live Classes
-- Zoom Integration
-- Google Meet Integration
-- Discussion Forums
-- Gamification
-- Badges & Rewards
-- AI Course Recommendations
-- Multi-language Support
-- Dark Mode
-
----
-
-# Screenshots
-
-Add screenshots inside
-
-```
-public/screenshots/
-```
-
-Example
-
-```
-screenshots/
-├── home.png
-├── dashboard.png
-├── student.png
-├── instructor.png
-├── admin.png
-├── courses.png
-```
-
----
-
-# Requirements
-
-- PHP >= 8.2
-- Composer
-- Node.js
-- npm
-- MySQL
 - Git
-
----
-
-# License
-
-This project is licensed under the MIT License.
-
----
-
-# Author
-
-**Shivam Mishra**
-
-B.Tech CSE (AI & ML)
-
-Galgotias University
-
-GitHub:
-https://github.com/shivammishhra5
-
-LinkedIn:
-https://linkedin.com/in/shivammishra044
-
----
-
-# Acknowledgements
-
-- Laravel
-- Vite
-- PHP
-- MySQL
-- Stripe
-- Paystack
-- Spatie
-- Open Source Community
-
----
-
-## Project Status
-
-Current Status:
-
-**Production Ready**
-
-Actively maintained and continuously improved with new LMS features and performance enhancements.
+- GitHub
