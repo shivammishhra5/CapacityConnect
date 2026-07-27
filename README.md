@@ -327,7 +327,7 @@ Make sure you have the following installed:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/kcpl-academy.git
+git clone https://github.com/<shivammishhra5>/kcpl-academy.git
 cd kcpl-academy
 
 # 2. Install PHP dependencies
