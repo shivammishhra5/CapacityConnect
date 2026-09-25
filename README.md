@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 KCPL Academy
+# 🎓 CapacityConnect
 
 ### Modern Multi-Role Learning Management System (LMS) built on Laravel 12
 
@@ -57,7 +57,7 @@ A complete e-learning & course-marketplace platform — courses, events, quizzes
 
 ## 🧭 About the Project
 
-**KCPL Academy** is a production-grade **Learning Management System (LMS)** and **course marketplace**, built with **Laravel 12**. It is designed for academies, training institutes, coaching centers, and individual instructors who want a self-hosted, fully customizable alternative to platforms like Udemy or Teachable.
+**CapacityConnect** is a production-grade **Learning Management System (LMS)** and **course marketplace**, built with **Laravel 12**. It is designed for academies, training institutes, coaching centers, and individual instructors who want a self-hosted, fully customizable alternative to platforms like Udemy or Teachable.
 
 The platform ships with **three dedicated portals**:
 
@@ -152,7 +152,7 @@ Everything — from course creation to payouts to CMS content — is manageable 
 
 ## 🏗️ System Architecture
 
-KCPL Academy follows Laravel's classic **MVC** pattern with a clean **role-namespaced controller layer**, a **service-driven payment layer**, and a **Blade + Tailwind CSS** frontend compiled via **Vite**.
+CapacityConnect follows Laravel's classic **MVC** pattern with a clean **role-namespaced controller layer**, a **service-driven payment layer**, and a **Blade + Tailwind CSS** frontend compiled via **Vite**.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -275,7 +275,7 @@ Content & CMS                                            ├─ blog_posts / cat
 ## 📁 Project / Folder Structure
 
 ```
-KCPL_Academy/
+CapacityConnect/
 ├── app/
 │   ├── Http/Controllers/
 │   │   ├── Admin/           # Admin panel controllers (30+)
@@ -327,8 +327,8 @@ Make sure you have the following installed:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<shivammishhra5>/kcpl-academy.git
-cd kcpl-academy
+git clone https://github.com/<shivammishhra5>/capacityconnect.git
+cd capacityconnect
 
 # 2. Install PHP dependencies
 composer install
@@ -362,7 +362,7 @@ php artisan storage:link
 Key `.env` values to configure:
 
 ```env
-APP_NAME="KCPL Academy"
+APP_NAME="CapacityConnect"
 APP_ENV=production
 APP_URL=http://localhost
 
@@ -415,7 +415,7 @@ npm run build
 
 ## 🧙 Guided Setup Wizard
 
-On first launch, if the app isn't installed yet, KCPL Academy redirects to a **step-by-step Setup Wizard** (`Http/Controllers/Setup/*`, `routes/install.php`):
+On first launch, if the app isn't installed yet, CapacityConnect redirects to a **step-by-step Setup Wizard** (`Http/Controllers/Setup/*`, `routes/install.php`):
 
 1. **Welcome** — intro screen
 2. **Requirements Check** — verifies PHP version & required extensions
@@ -442,7 +442,7 @@ This makes deployment friendly for non-technical users — no manual `.env` edit
 
 ## 💳 Payment Gateways
 
-KCPL Academy supports **multi-gateway checkout**, configurable per deployment:
+CapacityConnect supports **multi-gateway checkout**, configurable per deployment:
 
 | Gateway | Use Case |
 |---|---|
