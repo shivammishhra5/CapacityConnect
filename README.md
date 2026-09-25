@@ -4,6 +4,10 @@
 
 ### Modern Multi-Role Learning Management System (LMS) built on Laravel 12
 
+### Live Website 
+
+https://capacityconnect.kartikcomtech.in/
+
 A complete e-learning & course-marketplace platform — courses, events, quizzes, assignments, certificates, community Q&A, multi-gateway payments, instructor payouts, AI chat, and a full drag-and-drop Content/Frontend Manager — all in one codebase.
 
 <p>
